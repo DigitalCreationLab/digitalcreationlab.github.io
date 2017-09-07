@@ -43,6 +43,9 @@ p {
 .bg-primary {
   background-color: #F05F40 !important; }
 
+.bg-primarytwo {
+  background-color: #6d6160 !important; }
+
 .bg-dark {
   color: white;
   background-color: #222222 !important; }
@@ -255,6 +258,9 @@ header.masthead {
 .text-primary {
   color: #F05F40 !important; }
 
+  .text-primarytwo {
+    color: #6d6160 !important; }
+
 .no-gutter > [class*='col-'] {
   padding-right: 0;
   padding-left: 0; }
@@ -332,6 +338,43 @@ header.masthead {
   .btn-primary .badge {
     color: #F05F40;
     background-color: white; }
+
+    .btn-primarytwo {
+      color: white;
+      border-color: #6d6160;
+      background-color: #6d6160; }
+      .btn-primarytwo.focus, .btn-primarytwo:focus {
+        color: white;
+        border-color: #a4270d;
+        background-color: #eb3812; }
+      .btn-primarytwo:hover {
+        color: white;
+        border-color: #e13612;
+        background-color: #eb3812; }
+      .btn-primarytwo.active, .btn-primarytwo:active,
+      .open > .btn-primarytwo.dropdown-toggle {
+        color: white;
+        border-color: #e13612;
+        background-color: #eb3812; }
+        .btn-primarytwo.active.focus, .btn-primarytwo.active:focus, .btn-primarytwo.active:hover, .btn-primarytwo:active.focus, .btn-primarytwo:active:focus, .btn-primarytwo:active:hover,
+        .open > .btn-primarytwo.dropdown-toggle.focus,
+        .open > .btn-primarytwo.dropdown-toggle:focus,
+        .open > .btn-primarytwo.dropdown-toggle:hover {
+          color: white;
+          border-color: #a4270d;
+          background-color: #c93110; }
+      .btn-primarytwo.active, .btn-primarytwo:active,
+      .open > .btn-primarytwo.dropdown-toggle {
+        background-image: none; }
+      .btn-primarytwo.disabled.focus, .btn-primarytwo.disabled:focus, .btn-primarytwo.disabled:hover, .btn-primarytwo[disabled].focus, .btn-primarytwo[disabled]:focus, .btn-primarytwo[disabled]:hover,
+      fieldset[disabled] .btn-primarytwo.focus,
+      fieldset[disabled] .btn-primarytwo:focus,
+      fieldset[disabled] .btn-primarytwo:hover {
+        border-color: #6d6160;
+        background-color: #6d6160; }
+      .btn-primarytwo .badge {
+        color: #6d6160;
+        background-color: white; }
 
 .btn {
   font-weight: 700;
